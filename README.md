@@ -1,47 +1,70 @@
-# Fallout Angles
+# Fallout: Angles
 
-Fallout Angles is a Unity HDRP game project targeting Unity `6000.5.0f1`.
+**Fallout: Angles** is a Fallout game set in post-apocalyptic England, currently in development using **Unity 6.5**.
 
-## Requirements
+Set in **Norfolk in 2280**, the game follows the **Afflicted One** across the ruins of East Anglia in search of the Heroine — and a cure for the disease slowly killing them.
 
-- Unity `6000.5.0f1`
-- Git LFS 3.x or newer
+## Premise
 
-## Getting started
+> Norfolk, 2280. After discovering you have been diagnosed with a rare old world disease, the Heroine leaves the vault you both grew up in, searching for a cure. The Afflicted One must enter the East Anglian Wasteland to find what has become of the Heroine, come hell or high water.
 
-```powershell
-git lfs install
-git clone https://github.com/atritheone/FalloutAngles.git
-```
+## Setting
 
-Open the cloned repository directory as a Unity project. Unity will recreate
-`Library`, `Temp`, generated IDE projects, and other local state on first open.
+More than two centuries after the Great War, England is a wasteland shaped by the collapse of the European Commonwealth, the Resource Wars, the European Civil War, and finally the nuclear devastation of 2077.
 
-## Local character assets
+**Fallout: Angles** is centred on **Norfolk and East Anglia**, with the ruins of **Norwich** forming one of the region's major locations.
 
-Human Generator source and derived assets are deliberately excluded from this
-repository. This includes the player/NPC source models, generated skinned
-attachments, extracted player hair textures and material, and the generated
-player avatar.
+The game explores how Britain developed before the war, how its population survived the bombs, and what new societies, factions and cultures emerged from the remains.
 
-The project-owned player and NPC prefabs remain in source control, so their
-model, mesh, texture, and avatar references will be missing on a clean clone.
-Use redistributable replacement characters, or restore legitimately licensed
-local assets without committing them.
+## Gameplay
 
-The relevant ignored locations are documented in `.gitignore`.
+Fallout: Angles is a **third-person action RPG and shooter** built around exploration of the East Anglian Wasteland.
 
-## Repository layout
+The project is being designed around:
 
-- `Assets/` contains game code, scenes, prefabs, definitions, and content.
-- `Packages/` contains the Unity package manifest and the embedded UniGLTF
-  dependency.
-- `ProjectSettings/` contains shared Unity project configuration.
+- Third-person firearm and melee combat
+- Exploration of a large post-apocalyptic English world
+- Vaults, settlements, ruins and wilderness
+- Dialogue, quests and player choice
+- Weapons, armour, medicine and other Fallout-style equipment
+- Factions with competing interests across East Anglia
+- Character progression and RPG systems
+- A story centred on the search for the Heroine and a cure for the Afflicted One
 
-Large animation, model, image, font, and audio files are stored with Git LFS.
+## Technology
 
-## Licensing
+- **Engine:** Unity 6.5
+- **Language:** C#
+- **Input:** Unity Input System
+- **Perspective:** Third Person
+- **Platform:** PC
 
-No licence is granted for the original project code or content unless a file
-explicitly states otherwise. Third-party components retain their respective
-licences; see `THIRD_PARTY_NOTICES.md`.
+## Development
+
+Fallout: Angles is currently under active development.
+
+Systems, world design, story content and assets contained in this repository may change substantially as development progresses.
+
+## Repository
+
+The repository contains the source code and development files for Fallout: Angles, including gameplay systems and other project-specific Unity components.
+
+The project is not currently intended to represent a finished or production-ready build.
+
+## Fallout Timeline
+
+The game's background follows the established broad history of Fallout's Europe:
+
+- **2052** — The Resource Wars begin.
+- **2053** — Tel Aviv is destroyed by a terrorist nuclear weapon.
+- **2054** — A limited nuclear exchange occurs in the Middle East.
+- **2060** — The Middle Eastern oil fields run dry and the European Commonwealth collapses.
+- **2060–2077** — The former European powers fight over the continent's remaining resources.
+- **23 October 2077** — The Great War destroys the old world.
+- **2280** — The events of **Fallout: Angles** begin.
+
+
+---
+
+**Fallout: Angles**  
+*Norfolk, 2280.*
