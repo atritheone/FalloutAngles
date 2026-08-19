@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdacff57c70ba1b45b96a2958e7394f5, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDatabase
+  entries:
+  - itemName: 455Box
+    itemPrefab: {fileID: 2759776755927125648, guid: d8dfde4516378064fb5d476f4ecc9894, type: 3}
+    aliases:
+    - 455Box
+    - Ammo1
+    - .455 Rounds (20)
+  - itemName: BattleRifle
+    itemPrefab: {fileID: 3275089288694516454, guid: 7f5af2909eb5b3e418b2a3a916de57a0, type: 3}
+    aliases:
+    - BattleRifle
+    - BattleRifleWorld
+    - Battle Rifle
+  - itemName: BottleCap
+    itemPrefab: {fileID: 2217268337332154142, guid: 87aef6f9fbd929b4b9abba4c16f4092d, type: 3}
+    aliases:
+    - BottleCap
+    - Bottle Cap
+  - itemName: Cane
+    itemPrefab: {fileID: 7695222450200544992, guid: 437b7acee9012794ab99b5cbdc799a68, type: 3}
+    aliases:
+    - Cane
+    - CaneWorld
+    - Weapon1
+  - itemName: CombatKnife
+    itemPrefab: {fileID: 3473480749047161924, guid: 3d24e670ac5f4834e94ddae21b50f7ea, type: 3}
+    aliases:
+    - CombatKnife
+    - CombatKnifeWorld
+    - Weapon2
+    - Combat Knife
+  - itemName: CricketBat
+    itemPrefab: {fileID: 7542032396076786333, guid: b421dbd2b598e2148acf9fd29c25ded5, type: 3}
+    aliases:
+    - CricketBat
+    - CricketBatWorld
+    - Weapon3
+    - Cricket Bat
+  - itemName: DoubleBarrelShotgun
+    itemPrefab: {fileID: 8049145390228757913, guid: c722c8308554a8b4c97b50984bb39f6e, type: 3}
+    aliases:
+    - DoubleBarrelShotgun
+    - DoubleBarrelShotgunWorld
+    - Double-Barrel Shotgun
+  - itemName: HuntingRifle
+    itemPrefab: {fileID: 3735839399391530994, guid: 565cca6858b0d6a4d9968e0342c72e0f, type: 3}
+    aliases:
+    - HuntingRifle
+    - HuntingRifleWorld
+    - Hunting Rifle
+  - itemName: KitchenKnife
+    itemPrefab: {fileID: 5125343984502193646, guid: ad8c2269643cec14e90a8a08c6404021, type: 3}
+    aliases:
+    - KitchenKnife
+    - KitchenKnifeWorld
+    - Weapon5
+    - Kitchen Knife
+  - itemName: KnuckleDusters
+    itemPrefab: {fileID: 6317821378196634130, guid: 91f45bf710ed82e4b855ba41abf6b236, type: 3}
+    aliases:
+    - KnuckleDusters
+    - KnuckleDustersWorld
+    - Weapon6
+    - Knuckle Dusters
+  - itemName: LaserPistol
+    itemPrefab: {fileID: 178881650470032053, guid: 765fd6c7d17708a4eb277cc061d61d51, type: 3}
+    aliases:
+    - LaserPistol
+    - LaserPistolWorld
+    - Laser Pistol
+  - itemName: LaserRifle
+    itemPrefab: {fileID: 4313570534577817224, guid: dc45c424ba67d0148b6cba91dc033e1b, type: 3}
+    aliases:
+    - LaserRifle
+    - LaserRifleWorld
+    - Laser Rifle
+  - itemName: LeadPipe
+    itemPrefab: {fileID: 7455901355561570690, guid: 4d7697553a4d0f340b5970db49581773, type: 3}
+    aliases:
+    - LeadPipe
+    - LeadPipeWorld
+    - Weapon7
+    - Lead Pipe
+  - itemName: LightMachineGun
+    itemPrefab: {fileID: 1833587022451979056, guid: a8f555013d0b03f43bb0020989d3fa41, type: 3}
+    aliases:
+    - LightMachineGun
+    - LightMachineGunWorld
+    - Light Machine Gun
+  - itemName: MicrofusionCells
+    itemPrefab: {fileID: 4186794509404617514, guid: c42aa9214861eb947b451276bd327d97, type: 3}
+    aliases:
+    - MicrofusionCells
+    - Microfusion Cells (10)
+  - itemName: PumpActionShotgun
+    itemPrefab: {fileID: 8161842411180138412, guid: e1c0a6451e9b7724091839c46e78d2f8, type: 3}
+    aliases:
+    - PumpActionShotgun
+    - PumpActionShotgunWorld
+    - Pump-Action Shotgun
+  - itemName: Revolver
+    itemPrefab: {fileID: 45532679007012978, guid: 226d54f73fcca1e4dab10e41d18f9925, type: 3}
+    aliases:
+    - Revolver
+    - RevolverWorld
+  - itemName: SelfLoadingPistol
+    itemPrefab: {fileID: 6132022569095044000, guid: 47d4152bcd264b0478e583f7fb24317c, type: 3}
+    aliases:
+    - SelfLoadingPistol
+    - SelfLoadingPistolWorld
+    - Weapon8
+    - Self-Loading Pistol
+  - itemName: Shovel
+    itemPrefab: {fileID: 2417910265761045159, guid: 89e87f8d67a68c647b6e366f50c30be2, type: 3}
+    aliases:
+    - Shovel
+    - ShovelWorld
+    - Weapon9
+  - itemName: SniperRifle
+    itemPrefab: {fileID: 5279096110568868287, guid: f24b656ad0cc99046ae40dd6e5e32daa, type: 3}
+    aliases:
+    - SniperRifle
+    - SniperRifleWorld
+    - Sniper Rifle
+  - itemName: Stimpak
+    itemPrefab: {fileID: 5770557363679814831, guid: 8242f925714d64d4dbfa6802adfdb1ec, type: 3}
+    aliases:
+    - Stimpak
+  - itemName: StraightRazor
+    itemPrefab: {fileID: 4427836259168652293, guid: c6ae7f2ecb3335549a6f5e43d0d274bc, type: 3}
+    aliases:
+    - StraightRazor
+    - StraightRazorWorld
+    - Weapon10
+    - Straight Razor
+  - itemName: SubmachineGun
+    itemPrefab: {fileID: 3896355890354829581, guid: cde9cfff542ecdc44b3f6cce2df202be, type: 3}
+    aliases:
+    - SubmachineGun
+    - SubmachineGunWorld
+    - Submachine Gun
+  - itemName: WeaponDeskTestKey
+    itemPrefab: {fileID: 5294456613610005200, guid: d73cabf2cb5400c419f599343bfdffe2, type: 3}
+    aliases:
+    - WeaponDeskTestKey
+    - Weapon Desk Test Key

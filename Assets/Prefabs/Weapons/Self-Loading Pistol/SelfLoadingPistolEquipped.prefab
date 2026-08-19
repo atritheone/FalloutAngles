@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4617655667334349530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1967026594430458551}
+  m_Layer: 0
+  m_Name: LeftHandTargetSelfLoadingPistol
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1967026594430458551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4617655667334349530}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.34855172, y: -0.7116089, z: -0.45013842, w: 0.41170362}
+  m_LocalPosition: {x: -0.072, y: -0.029, z: -0.061}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5661064370555919590}
+  m_LocalEulerAnglesHint: {x: -68.071, y: 586.779, z: -700.377}
+--- !u!1 &8662109358066890965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4279072678993952842}
+  m_Layer: 0
+  m_Name: Gunpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4279072678993952842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8662109358066890965}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.0639, z: 0.1005}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5661064370555919590}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8759635619924715925
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8507262685668995458}
+  m_Layer: 0
+  m_Name: LeftHandHintSelfLoadingPistol
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8507262685668995458
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8759635619924715925}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.116510354, y: 0.96815264, z: -0.03193276, w: -0.21928538}
+  m_LocalPosition: {x: -0.2917857, y: -0.3209379, z: -0.1614124}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5661064370555919590}
+  m_LocalEulerAnglesHint: {x: -180.615, y: 385.599, z: -166.136}
+--- !u!1001 &3172548893514205308
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -2119211468235598694, guid: 7c962fd73c7e21e4392a687342bf6104, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.012099972
+      objectReference: {fileID: 0}
+    - target: {fileID: -2119211468235598694, guid: 7c962fd73c7e21e4392a687342bf6104, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.05620003
+      objectReference: {fileID: 0}
+    - target: {fileID: -2119211468235598694, guid: 7c962fd73c7e21e4392a687342bf6104, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0091000125
+      objectReference: {fileID: 0}
+    - target: {fileID: -2119211468235598694, guid: 7c962fd73c7e21e4392a687342bf6104, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.12352635
+      objectReference: {fileID: 0}
+    - target: {fileID: -2119211468235598694, guid: 7c962fd73c7e21e4392a687342bf6104, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.05780575
+      objectReference: {fileID: 0}
+    - target: {fileID: -2119211468235598694, guid: 7c962fd73c7e21e4392a687342bf6104, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.697203
+      objectReference: {fileID: 0}
+    - target: {fileID: -2119211468235598694, guid: 7c962fd73c7e21e4392a687342bf6104, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7037811
+      objectReference: {fileID: 0}
+    - target: {fileID: -2119211468235598694, guid: 7c962fd73c7e21e4392a687342bf6104, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -95.354
+      objectReference: {fileID: 0}
+    - target: {fileID: -2119211468235598694, guid: 7c962fd73c7e21e4392a687342bf6104, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -103.091
+      objectReference: {fileID: 0}
+    - target: {fileID: -2119211468235598694, guid: 7c962fd73c7e21e4392a687342bf6104, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -91.659
+      objectReference: {fileID: 0}
+    - target: {fileID: -171506556727391282, guid: 7c962fd73c7e21e4392a687342bf6104, type: 3}
+      propertyPath: m_Name
+      value: SelfLoadingPistolEquipped
+      objectReference: {fileID: 0}
+    - target: {fileID: -171506556727391282, guid: 7c962fd73c7e21e4392a687342bf6104, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -2119211468235598694, guid: 7c962fd73c7e21e4392a687342bf6104, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4279072678993952842}
+    - targetCorrespondingSourceObject: {fileID: -2119211468235598694, guid: 7c962fd73c7e21e4392a687342bf6104, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1967026594430458551}
+    - targetCorrespondingSourceObject: {fileID: -2119211468235598694, guid: 7c962fd73c7e21e4392a687342bf6104, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8507262685668995458}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -4161369568681901532, guid: 7c962fd73c7e21e4392a687342bf6104, type: 3}
+--- !u!4 &5661064370555919590 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2119211468235598694, guid: 7c962fd73c7e21e4392a687342bf6104, type: 3}
+  m_PrefabInstance: {fileID: 3172548893514205308}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,13 @@
+﻿
+
+## todo
+
+fix hair desync and artifacting
+
+fix change weapon with weapon in hand animation settings
+
+fix jump getting stuck in run frame
+
+fix land not obeying movement lock 
+
+add injured walk

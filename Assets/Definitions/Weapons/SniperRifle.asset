@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c07ca2aa1a91e0d4babf636cf970b205, type: 3}
+  m_Name: SniperRifle
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponDefinition
+  itemId: 
+  displayName: Sniper Rifle
+  description: 
+  icon: {fileID: 0}
+  weight: 9
+  isStackable: 0
+  maxStackSize: 1
+  damage: 25
+  baseValue: 520
+  fireRate: 0.25
+  range: 600
+  muzzleVelocity: 915
+  ammoType: {fileID: 11400000, guid: e0aea69a31f120a48ad6b7fe82172d5c, type: 2}
+  magazineSize: 5
+  worldPrefab: {fileID: 5279096110568868287, guid: f24b656ad0cc99046ae40dd6e5e32daa, type: 3}

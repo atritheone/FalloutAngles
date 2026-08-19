@@ -1,0 +1,102 @@
+# Unity-generated project state
+/.utmp/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Pp]rofilerCaptures/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+*.log
+*.blend1
+*.blend1.meta
+
+# IDE and editor state
+/.idea/
+/.vs/
+/.vscode/
+/.fleet/
+/.gradle/
+ExportedObj/
+.consulo/
+
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.DotSettings.user
+
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# OS and crash artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+sysinfo.txt
+mono_crash.*
+
+# Generated builds and packages
+*.apk
+*.aab
+*.app
+*.unitypackage
+*.unitypackage.meta
+crashlytics-build.properties
+InitTestScene*.unity*
+
+# Addressables-generated output
+/ServerData/
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# Visual Scripting-generated caches
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+/[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Human Generator source and derived content is intentionally local-only.
+# Project prefabs remain tracked but require replacement or locally supplied
+# character assets before their renderer/model references will resolve.
+/Assets/Models/Player/
+/Assets/Models/Player.meta
+/Assets/Models/NPCs/
+/Assets/Models/NPCs.meta
+/Assets/Textures/Player/
+/Assets/Textures/Player.meta
+/Assets/Animation/Avatars/
+/Assets/Animation/Avatars.meta
+/Assets/Generated/
+/Assets/Generated.meta
+/Assets/Materials/OneHair.mat
+/Assets/Materials/OneHair.mat.meta
+
+# Empty Unity folders are not represented in Git. Ignore their orphaned
+# folder metadata until real content is added.
+/Assets/NPCs/
+/Assets/NPCs.meta
+/Assets/Animation/Animations/Player/Two Handed/Run/
+/Assets/Animation/Animations/Player/Two Handed/Run.meta
+/Assets/Prefabs/Items/Collections/
+/Assets/Prefabs/Items/Collections.meta

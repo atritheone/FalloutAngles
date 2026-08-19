@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a2ef6142803c884f95a7022f0429db1, type: 3}
+  m_Name: GunNut
+  m_EditorClassIdentifier: Assembly-CSharp::PerkDefinition
+  perkId: GunNut
+  perkName: Gun Nut
+  description: You are obsessed with using and maintaining a wide variety of conventional
+    firearms. With each rank of the Gun Nut perk, you gain an additional 5 points
+    to the Small Guns and Repair skills.
+  formCodes:
+  - 0004494E
+  editorId: GunNut
+  referenceUrl: https://fallout.fandom.com/wiki/Gun_Nut_(Fallout_3)
+  icon: {fileID: 0}
+  category: 0
+  contentSource: 0
+  customContentSource: 
+  selectableAtLevelUp: 1
+  cutContent: 0
+  maxRank: 3
+  requiredLevel: 2
+  genderRequirement: 0
+  karmaRequirement: 0
+  specialRequirements:
+  - stat: 5
+    minimumValue: 4
+    ignoreTemporaryModifiers: 1
+    allowLucky8BallException: 1
+  - stat: 4
+    minimumValue: 4
+    ignoreTemporaryModifiers: 1
+    allowLucky8BallException: 1
+  skillRequirements: []
+  prerequisitePerks: []
+  mutuallyExclusivePerks: []
+  customRequirements: []
+  foundInQuest: {fileID: 0}
+  relatedQuests: []
+  questRequirements: []
+  acquisitionDescription: 
+  unsafeToGrantDirectly: 0
+  benefitSummary: Each of the three ranks permanently increases Repair and Small
+    Guns by 5 points.
+  rankBenefits:
+  - rank: 1
+    benefit: +5 Small Guns, +5 Repair
+    effects:
+    - target: 2
+      specialStatTarget: 0
+      skillTarget: 10
+      operation: 0
+      magnitude: 5
+      durationSeconds: 0
+      chancePercent: 0
+      scalesWithRank: 0
+      conditions: []
+      effectId: SmallGunsBonusRank1
+      notes: Permanent skill increase.
+    - target: 2
+      specialStatTarget: 0
+      skillTarget: 8
+      operation: 0
+      magnitude: 5
+      durationSeconds: 0
+      chancePercent: 0
+      scalesWithRank: 0
+      conditions: []
+      effectId: RepairBonusRank1
+      notes: Permanent skill increase.
+  - rank: 2
+    benefit: +5 Small Guns, +5 Repair
+    effects:
+    - target: 2
+      specialStatTarget: 0
+      skillTarget: 10
+      operation: 0
+      magnitude: 5
+      durationSeconds: 0
+      chancePercent: 0
+      scalesWithRank: 0
+      conditions: []
+      effectId: SmallGunsBonusRank2
+      notes: Permanent skill increase.
+    - target: 2
+      specialStatTarget: 0
+      skillTarget: 8
+      operation: 0
+      magnitude: 5
+      durationSeconds: 0
+      chancePercent: 0
+      scalesWithRank: 0
+      conditions: []
+      effectId: RepairBonusRank2
+      notes: Permanent skill increase.
+  - rank: 3
+    benefit: +5 Small Guns, +5 Repair
+    effects:
+    - target: 2
+      specialStatTarget: 0
+      skillTarget: 10
+      operation: 0
+      magnitude: 5
+      durationSeconds: 0
+      chancePercent: 0
+      scalesWithRank: 0
+      conditions: []
+      effectId: SmallGunsBonusRank3
+      notes: Permanent skill increase.
+    - target: 2
+      specialStatTarget: 0
+      skillTarget: 8
+      operation: 0
+      magnitude: 5
+      durationSeconds: 0
+      chancePercent: 0
+      scalesWithRank: 0
+      conditions: []
+      effectId: RepairBonusRank3
+      notes: Permanent skill increase.
+  effects:
+  - target: 2
+    specialStatTarget: 0
+    skillTarget: 10
+    operation: 0
+    magnitude: 5
+    durationSeconds: 0
+    chancePercent: 0
+    scalesWithRank: 1
+    conditions: []
+    effectId: SmallGunsBonus
+    notes: Permanent +5 Small Guns per rank, up to +15 at rank 3.
+  - target: 2
+    specialStatTarget: 0
+    skillTarget: 8
+    operation: 0
+    magnitude: 5
+    durationSeconds: 0
+    chancePercent: 0
+    scalesWithRank: 1
+    conditions: []
+    effectId: RepairBonus
+    notes: Permanent +5 Repair per rank, up to +15 at rank 3.
+  - target: 19
+    specialStatTarget: 0
+    skillTarget: 0
+    operation: 4
+    magnitude: 0
+    durationSeconds: 0
+    chancePercent: 0
+    scalesWithRank: 0
+    conditions:
+    - conditionType: 16
+      gender: 0
+      karmaRequirement: 0
+      weaponCategory: 0
+      targetType: 0
+      startHour: 0
+      endHour: 0
+      thresholdPercent: 0
+      requiredItemId: 
+      quest: {fileID: 0}
+      questId: ReillysRangers
+      conditionDetails: Starting Reilly's Rangers by talking to Reilly.
+    effectId: ReillysRangersDialogue
+    notes: Grants a dialogue option mentioning that the Rangers carry serious firepower.
+  designerNotes: The perk image includes a missile launcher, but Fallout 3 treats
+    missile launchers as Big Guns; Gun Nut only improves Small Guns and Repair.

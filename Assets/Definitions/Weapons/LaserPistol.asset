@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c07ca2aa1a91e0d4babf636cf970b205, type: 3}
+  m_Name: LaserPistol
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponDefinition
+  itemId: 
+  displayName: Laser Pistol
+  description: 
+  icon: {fileID: 0}
+  weight: 4
+  isStackable: 0
+  maxStackSize: 1
+  damage: 8
+  baseValue: 300
+  fireRate: 6
+  range: 100
+  muzzleVelocity: 180
+  ammoType: {fileID: 11400000, guid: dffb96dcb56325e479fd632fdc32764d, type: 2}
+  magazineSize: 12
+  worldPrefab: {fileID: 178881650470032053, guid: 765fd6c7d17708a4eb277cc061d61d51, type: 3}

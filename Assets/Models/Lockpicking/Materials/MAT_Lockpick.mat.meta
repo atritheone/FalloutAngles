@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 003ef894ad778014fab95fd13d3aa14d
+timeCreated: 1483794343
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80028
+  packageName: 'Mini Pack : Lockpick Kit'
+  packageVersion: 1.0
+  assetPath: Assets/MP_Lockpick/Materials/MAT_Lockpick.mat
+  uploadId: 154792

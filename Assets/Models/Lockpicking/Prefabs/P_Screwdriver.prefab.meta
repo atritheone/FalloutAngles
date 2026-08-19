@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 60e91f1c611153c4996064b6ef680a6e
+timeCreated: 1483794624
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80028
+  packageName: 'Mini Pack : Lockpick Kit'
+  packageVersion: 1.0
+  assetPath: Assets/MP_Lockpick/Prefabs/P_Screwdriver.prefab
+  uploadId: 154792

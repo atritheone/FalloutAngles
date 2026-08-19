@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ddd9e86a503124686a464f8ea63ff6, type: 3}
+  m_Name: ClothingIron
+  m_EditorClassIdentifier: Assembly-CSharp::MiscDefinition
+  itemId: 
+  displayName: Clothing Iron
+  description: 
+  icon: {fileID: 0}
+  weight: 2
+  isStackable: 1
+  maxStackSize: 1000
+  value: 10
+  worldPrefab: {fileID: 7843390639448133531, guid: c545a572e9267e94f9087e06587ffffa, type: 3}

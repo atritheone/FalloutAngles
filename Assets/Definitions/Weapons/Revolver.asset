@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c07ca2aa1a91e0d4babf636cf970b205, type: 3}
+  m_Name: Revolver
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponDefinition
+  itemId: 
+  displayName: Revolver
+  description: 
+  icon: {fileID: 0}
+  weight: 4
+  isStackable: 0
+  maxStackSize: 1
+  damage: 12
+  baseValue: 250
+  fireRate: 2
+  range: 100
+  muzzleVelocity: 185
+  ammoType: {fileID: 11400000, guid: ff07dab41f01bbe41998b2f0439b94be, type: 2}
+  magazineSize: 6
+  worldPrefab: {fileID: 45532679007012978, guid: 226d54f73fcca1e4dab10e41d18f9925, type: 3}

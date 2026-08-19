@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6305788448791914536
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -3910990755373119420, guid: 9017dc16379181e43a39147c2f6cf54b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0504
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 9017dc16379181e43a39147c2f6cf54b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1058
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 9017dc16379181e43a39147c2f6cf54b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.102
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 9017dc16379181e43a39147c2f6cf54b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49589488
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 9017dc16379181e43a39147c2f6cf54b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.100799605
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 9017dc16379181e43a39147c2f6cf54b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.74987453
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 9017dc16379181e43a39147c2f6cf54b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.4261642
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 9017dc16379181e43a39147c2f6cf54b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -32.627
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 9017dc16379181e43a39147c2f6cf54b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 99.91
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 9017dc16379181e43a39147c2f6cf54b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 42.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771091787928289351, guid: 9017dc16379181e43a39147c2f6cf54b, type: 3}
+      propertyPath: m_Name
+      value: LeadPipeEquipped
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771091787928289351, guid: 9017dc16379181e43a39147c2f6cf54b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -4161369568681901532, guid: 9017dc16379181e43a39147c2f6cf54b, type: 3}

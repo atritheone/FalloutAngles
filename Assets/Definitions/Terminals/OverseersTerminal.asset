@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f298a81253d0ce647a08a1a902d3b328, type: 3}
+  m_Name: OverseersTerminal
+  m_EditorClassIdentifier: Assembly-CSharp::TerminalDefinition
+  terminalName: Overseer's Terminal
+  document:
+    terminalTitle: Welcome, Overseer.
+    startupPageId: main
+    pages:
+    - pageId: main
+      body: 
+      includeBackOption: 1
+      backOptionLabel: '> Back'
+      includeExitOption: 1
+      exitOptionLabel: '> Log Off'
+      options:
+      - label: View Security Dossiers
+        action: 0
+        targetPageId: securitydossiers
+        addCurrentPageToHistory: 1
+        promptMessage: 
+        onSelected:
+          m_PersistentCalls:
+            m_Calls: []
+      - label: View Scouting Reports
+        action: 0
+        targetPageId: scoutingreports
+        addCurrentPageToHistory: 1
+        promptMessage: 
+        onSelected:
+          m_PersistentCalls:
+            m_Calls: []
+      - label: Vault-Tec Instructions
+        action: 0
+        targetPageId: vaulttecinstructions
+        addCurrentPageToHistory: 1
+        promptMessage: 
+        onSelected:
+          m_PersistentCalls:
+            m_Calls: []
+      - label: Open Overseer's Tunnel
+        action: 4
+        targetPageId: 
+        addCurrentPageToHistory: 0
+        promptMessage: Opening...
+        onSelected:
+          m_PersistentCalls:
+            m_Calls: []
+    - pageId: securitydossiers
+      body: 
+      includeBackOption: 1
+      backOptionLabel: '> Back'
+      includeExitOption: 1
+      exitOptionLabel: '> Log Off'
+      options:
+      - label: Tunnel Snakes
+        action: 0
+        targetPageId: tunnelsnakes
+        addCurrentPageToHistory: 1
+        promptMessage: 
+        onSelected:
+          m_PersistentCalls:
+            m_Calls: []
+      - label: Beatrice
+        action: 0
+        targetPageId: beatrice
+        addCurrentPageToHistory: 1
+        promptMessage: 
+        onSelected:
+          m_PersistentCalls:
+            m_Calls: []
+      - label: Jonas
+        action: 0
+        targetPageId: jonas
+        addCurrentPageToHistory: 1
+        promptMessage: 
+        onSelected:
+          m_PersistentCalls:
+            m_Calls: []
+      - label: Amata
+        action: 0
+        targetPageId: amata
+        addCurrentPageToHistory: 1
+        promptMessage: 
+        onSelected:
+          m_PersistentCalls:
+            m_Calls: []
+    - pageId: tunnelsnakes
+      body: If Butch and his leather-clad delinquents accost Amata one more time,
+        they'll have more to deal with than their acerbic teacher.  Their "services"
+        have come in handy upon occasion, I must admit, but they're starting to become...
+        unruly. If dogs become feral, they must be put down. I'll have to remind
+        Butch of that upon our next meeting.
+      includeBackOption: 1
+      backOptionLabel: '> Back'
+      includeExitOption: 1
+      exitOptionLabel: '> Log Off'
+      options: []
+    - pageId: beatrice
+      body: 'Just what Vault 101 needs -- an absent-minded, sexually repressed sycophant.
+        Beatrice has served Vault 101 admirably for years, but her mind is growing
+        feeble. I''ll have to speak with our good doctor about some kind of long-term
+        pharmaceutical solution.
+
+
+
+        We may at least be able to keep her comfortable
+        -- and quiet -- until she passes on.'
+      includeBackOption: 1
+      backOptionLabel: '> Back'
+      includeExitOption: 1
+      exitOptionLabel: '> Log Off'
+      options: []
+    - pageId: jonas
+      body: 'I never should have assigned Jonas as James'' assistant. He was always
+        too idealistic for his own good. Now he spends every waking minute with the
+        good doctor, who gleefully fills his ears with even more idealistic nonsense.
+
+
+
+        I''ve
+        considered re-assigning him, but the truth is Jonas is a fine medic in his
+        own right, and hiding him down in maintenance would be a terrible waste of
+        resources.'
+      includeBackOption: 1
+      backOptionLabel: '> Back'
+      includeExitOption: 1
+      exitOptionLabel: '> Log Off'
+      options: []
+    - pageId: amata
+      body: 'Every time I try to get Amata to open up, she just pushes me further
+        and further away. Since she was a child, I''ve tried to instill in her those
+        virtues that have made this Vault what it is today: loyalty, honesty, commitment,
+        hard work.
+
+
+
+        She does try, and with a lot of guidance has grown
+        into a fine young woman. That makes it all the sadder that she continues
+        to alienate me. She looks at me and sees the Overseer, not the father that
+        has cared for her alone -- alone! -- since she was an infant.'
+      includeBackOption: 1
+      backOptionLabel: '> Back'
+      includeExitOption: 1
+      exitOptionLabel: '> Log Off'
+      options: []
+    - pageId: scoutingreports
+      body: 
+      includeBackOption: 1
+      backOptionLabel: '> Back'
+      includeExitOption: 1
+      exitOptionLabel: '> Log Off'
+      options:
+      - label: Report 2241-02-10
+        action: 0
+        targetPageId: report22410210
+        addCurrentPageToHistory: 1
+        promptMessage: 
+        onSelected:
+          m_PersistentCalls:
+            m_Calls: []
+    - pageId: report22410210
+      body: As our tests suggested, the immediate vicinity of the vault is no longer
+        dangerously irradiated, although the background radiation is still well above
+        safe levels. Pockets of more intense radiation appear to still be common,
+        and all surface water seems to be undrinkable. We will need to carry ample
+        supplies of Rad-X with us on all future surveys. But hazard suits do not
+        seem to be necessary for general exploration.  Our old maps are largely useless.
+        The town of Springvale is an abandoned ruin, and all pre-War roads have disappeared
+        or are no longer passable.  We encountered a group of monstrous ants which
+        appeared to confirm Mackay's theories of mutation due to extended exposure
+        to radiation. We drove off the ants with gunfire and collected several specimens
+        for study upon return to the vault (see Exhibit A).  The good news is that
+        human civilization still survives, despite everything! We discovered a settlement
+        known as "Megaton" (see Exhibit B), whose inhabitants, although somewhat
+        wary at first, soon welcomed us into their town.  We spent a good deal of
+        time in Megaton, and learned a great deal about the "Capital Wasteland" (as
+        the area around Washington D.C. is now called) from them. Megaton is a fortified
+        outpost of "civilization" (of sorts), but it seems that Giant Ants are the
+        least of the dangers of this new world. We agreed that it was prudent to
+        return to the Vault immediately to revise our survey plans in light of what
+        we have learned. Lewis and Agnes remained in Megaton to serve as "ambassadors"
+        and continue to collect information until we return.  Anne Palmer, Survey
+        Team Leader February 10, 2241
+      includeBackOption: 1
+      backOptionLabel: '> Back'
+      includeExitOption: 1
+      exitOptionLabel: '> Log Off'
+      options: []
+    - pageId: vaulttecinstructions
+      body: 
+      includeBackOption: 1
+      backOptionLabel: '> Back'
+      includeExitOption: 1
+      exitOptionLabel: '> Log Off'
+      options:
+      - label: Letter from Doctor Stanislaus Braun
+        action: 0
+        targetPageId: letterfromdoctorstanislausbraun
+        addCurrentPageToHistory: 1
+        promptMessage: 
+        onSelected:
+          m_PersistentCalls:
+            m_Calls: []
+      - label: Attachment A
+        action: 0
+        targetPageId: attachmenta
+        addCurrentPageToHistory: 1
+        promptMessage: 
+        onSelected:
+          m_PersistentCalls:
+            m_Calls: []
+      - label: 'Vault-Tec Scientific Entry: The G.E.C.K.'
+        action: 0
+        targetPageId: thegeck
+        addCurrentPageToHistory: 1
+        promptMessage: 
+        onSelected:
+          m_PersistentCalls:
+            m_Calls: []
+    - pageId: letterfromdoctorstanislausbraun
+      body: 'A Letter to the Overseer from Dr. Stanislaus Braun:  If you are reading
+        this, emergency Vault internment procedures have been initiated and you and
+        your control group have been sealed into your Vault. Congratulations! You
+        are now a vital part of the most ambitious program ever undertaken by Vault-Tec. 
+        If you have not yet read your sealed orders, do so now. They will outline
+        the experimental protocols assigned to your control group. Please remember
+        that deviation from these protocols in any way will jeopardize the success
+        of the program, and may be considered grounds for termination by Vault-Tec
+        Corporation (as outlined in your Employment Agreement).  Your Vault may or
+        may not have been selected to receive a G.E.C.K. module. Please see Attachment
+        A for details.  Doctor Stanislaus Braun Director, Societal Preservation Program
+        Vault-Tec Corporation'
+      includeBackOption: 1
+      backOptionLabel: '> Back'
+      includeExitOption: 1
+      exitOptionLabel: '> Log Off'
+      options: []
+    - pageId: attachmenta
+      body: Vault 101 will not receive a G.E.C.K. module, and should operate under
+        the guidelines laid forth in the Overseer's sealed orders.
+      includeBackOption: 1
+      backOptionLabel: '> Back'
+      includeExitOption: 1
+      exitOptionLabel: '> Log Off'
+      options: []
+    - pageId: thegeck
+      body: The G.E.C.K. is, quite simply, the most advanced piece of technology
+        ever developed by Vault-Tec -- a terraforming module capability of creating
+        life from complete lifelessness.  After riding out the storm of nuclear Armageddon
+        in a Vault-Tec patented vault, residents can then activate the G.E.C.K.,
+        and create a new Earthen paradise -- craters and dust will give way to rolling
+        grasslands and sparkling clear water. Of course, due to time and monetary
+        constraints, not every vault will be equipped with a G.E.C.K. module.
+      includeBackOption: 1
+      backOptionLabel: '> Back'
+      includeExitOption: 1
+      exitOptionLabel: '> Log Off'
+      options: []

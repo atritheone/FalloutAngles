@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c15f63d840cd04196cd7efdee88d0d, type: 3}
+  m_Name: 303British
+  m_EditorClassIdentifier: Assembly-CSharp::AmmoDefinition
+  itemId: 
+  displayName: .303 British
+  description: 
+  icon: {fileID: 0}
+  weight: 0
+  isStackable: 1
+  maxStackSize: 500
+  value: 1.5
+  calibreLabel: .303 British
+  roundPrefab: {fileID: 3945947552275203918, guid: 1698354e397f396488a50da5400fb5e8, type: 3}
+  overrideProjectileBallistics: 1
+  projectileMassKilograms: 0.0113
+  projectileDiameterMillimeters: 7.92
+  dragCoefficient: 0.3
+  gravityScale: 1
+  impactMomentumTransfer: 0.3
+  impactImpulseScale: 1
+  useQuadraticDrag: 1

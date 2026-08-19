@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c07ca2aa1a91e0d4babf636cf970b205, type: 3}
+  m_Name: LightMachineGun
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponDefinition
+  itemId: 
+  displayName: Light Machine Gun
+  description: 
+  icon: {fileID: 0}
+  weight: 10
+  isStackable: 0
+  maxStackSize: 1
+  damage: 8
+  baseValue: 450
+  fireRate: 8.5
+  automatic: 1
+  spread: 1.5
+  range: 400
+  muzzleVelocity: 744
+  ammoType: {fileID: 11400000, guid: 9066073e8f5342e4ca9dc6d41f85ee47, type: 2}
+  magazineSize: 30
+  worldPrefab: {fileID: 1833587022451979056, guid: a8f555013d0b03f43bb0020989d3fa41, type: 3}

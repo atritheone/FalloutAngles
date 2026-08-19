@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c07ca2aa1a91e0d4babf636cf970b205, type: 3}
+  m_Name: Shovel
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponDefinition
+  itemId: Weapon9
+  displayName: Shovel
+  description: 
+  icon: {fileID: 0}
+  weight: 6
+  isStackable: 0
+  maxStackSize: 1
+  damage: 6
+  baseValue: 14
+  fireRate: 0
+  range: 0
+  muzzleVelocity: 0
+  ammoType: {fileID: 0}
+  magazineSize: 0
+  worldPrefab: {fileID: 2417910265761045159, guid: 89e87f8d67a68c647b6e366f50c30be2, type: 3}

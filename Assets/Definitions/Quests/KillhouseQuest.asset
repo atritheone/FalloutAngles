@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb6a91a9899dcb0478ff83fc02629bb6, type: 3}
+  m_Name: KillhouseQuest
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questId: KillhouseQuest
+  displayName: The Killhouse
+  description: 
+  questType: 1
+  priority: 0
+  startOnGameStart: 1
+  repeatable: 0
+  completionMode: 2
+  completionExperienceReward: 500
+  initialStage: 1
+  stages:
+  - stageValue: 1
+    journalEntry: Eliminate the CSA Grunts in the Killhouse.
+    setCurrentObjective: 0
+    currentObjectiveId: -1
+    objectivesToDisplay: 0a000000
+    objectivesToComplete: 
+    objectivesToFail: 
+    completesQuest: 0
+    failsQuest: 0
+  objectives:
+  - objectiveId: 10
+    displayText: Eliminate the CSA Grunts in the Killhouse.
+    objectiveType: 1
+    visibleOnQuestStart: 1
+    requiredToCompleteQuest: 1
+    completesQuestWhenFinished: 1
+    targetSceneObjectName: 
+    requiredNpcSceneObjectNames:
+    - Grunt
+    - Grunt (1)
+    - Grunt (2)
+    hasWorldPosition: 0
+    worldPosition: {x: 0, y: 0, z: 0}

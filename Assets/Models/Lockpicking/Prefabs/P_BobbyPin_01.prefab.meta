@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 179080dbbe15ff14aa759f1d29b0a6cd
+timeCreated: 1483794661
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80028
+  packageName: 'Mini Pack : Lockpick Kit'
+  packageVersion: 1.0
+  assetPath: Assets/MP_Lockpick/Prefabs/P_BobbyPin_01.prefab
+  uploadId: 154792

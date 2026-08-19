@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f298a81253d0ce647a08a1a902d3b328, type: 3}
+  m_Name: TestTerminal
+  m_EditorClassIdentifier: Assembly-CSharp::TerminalDefinition
+  terminalName: Test Terminal
+  document:
+    terminalTitle: 'Vault-Tec Inc. - Vault 101
+
+      Settle in and stay a while!'
+    startupPageId: main
+    pages:
+    - pageId: main
+      body: 
+      includeBackOption: 0
+      backOptionLabel: '> Back'
+      includeExitOption: 1
+      exitOptionLabel: '> Log Off'
+      options:
+      - label: Test Hydroponics Systems
+        action: 4
+        targetPageId: 
+        addCurrentPageToHistory: 0
+        promptMessage: Hydroponics fully functional.
+        onSelected:
+          m_PersistentCalls:
+            m_Calls: []
+      - label: Test Air Filtration
+        action: 4
+        targetPageId: 
+        addCurrentPageToHistory: 0
+        promptMessage: Filtration systems fully functional.
+        onSelected:
+          m_PersistentCalls:
+            m_Calls: []

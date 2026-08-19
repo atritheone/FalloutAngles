@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c15f63d840cd04196cd7efdee88d0d, type: 3}
+  m_Name: 9mm
+  m_EditorClassIdentifier: Assembly-CSharp::AmmoDefinition
+  itemId: 
+  displayName: 9mm
+  description: 
+  icon: {fileID: 0}
+  weight: 0
+  isStackable: 1
+  maxStackSize: 500
+  value: 1
+  calibreLabel: 9mm
+  roundPrefab: {fileID: 1386323217874066955, guid: a20176b7f2399c6478b1f2948c3b9012, type: 3}
+  overrideProjectileBallistics: 1
+  projectileMassKilograms: 0.008
+  projectileDiameterMillimeters: 9.01
+  dragCoefficient: 0.28
+  gravityScale: 1
+  impactMomentumTransfer: 0.4
+  impactImpulseScale: 1
+  useQuadraticDrag: 1

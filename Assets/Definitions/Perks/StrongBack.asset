@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a2ef6142803c884f95a7022f0429db1, type: 3}
+  m_Name: StrongBack
+  m_EditorClassIdentifier: Assembly-CSharp::PerkDefinition
+  perkId: StrongBack
+  perkName: Strong Back
+  description: With this perk, you can carry an additional 50 lbs. of equipment.
+  formCodes:
+  - 00031DDE
+  editorId: StrongBack
+  referenceUrl: https://fallout.fandom.com/wiki/Strong_Back_(Fallout_3)
+  icon: {fileID: 0}
+  category: 0
+  contentSource: 0
+  customContentSource: 
+  selectableAtLevelUp: 1
+  cutContent: 0
+  maxRank: 1
+  requiredLevel: 8
+  genderRequirement: 0
+  karmaRequirement: 0
+  specialRequirements:
+  - stat: 2
+    minimumValue: 5
+    ignoreTemporaryModifiers: 1
+    allowLucky8BallException: 1
+  - stat: 0
+    minimumValue: 5
+    ignoreTemporaryModifiers: 1
+    allowLucky8BallException: 1
+  skillRequirements: []
+  prerequisitePerks: []
+  mutuallyExclusivePerks: []
+  customRequirements: []
+  foundInQuest: {fileID: 0}
+  relatedQuests: []
+  questRequirements: []
+  acquisitionDescription: 
+  unsafeToGrantDirectly: 0
+  benefitSummary: Permanently increases maximum carry weight by 50 lbs.
+  rankBenefits:
+  - rank: 1
+    benefit: +50 lbs. carry weight
+    effects:
+    - target: 5
+      specialStatTarget: 0
+      skillTarget: 0
+      operation: 0
+      magnitude: 50
+      durationSeconds: 0
+      chancePercent: 0
+      scalesWithRank: 0
+      conditions: []
+      effectId: CarryWeightBonusRank1
+      notes: Permanent carry weight increase.
+  effects:
+  - target: 5
+    specialStatTarget: 0
+    skillTarget: 0
+    operation: 0
+    magnitude: 50
+    durationSeconds: 0
+    chancePercent: 0
+    scalesWithRank: 0
+    conditions: []
+    effectId: CarryWeightBonus
+    notes: Permanent +50 lbs. maximum carry weight.
+  designerNotes: Fallout 3 Strong Back requires level 8, Endurance 5, and Strength
+    5.

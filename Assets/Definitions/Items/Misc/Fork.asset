@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ddd9e86a503124686a464f8ea63ff6, type: 3}
+  m_Name: Fork
+  m_EditorClassIdentifier: Assembly-CSharp::MiscDefinition
+  itemId: 
+  displayName: Pre-War Fork
+  description: 
+  icon: {fileID: 0}
+  weight: 0.5
+  isStackable: 1
+  maxStackSize: 1000
+  value: 10
+  worldPrefab: {fileID: 6684006712182153154, guid: 117e8e47e5557b743966ea5aa5577013, type: 3}

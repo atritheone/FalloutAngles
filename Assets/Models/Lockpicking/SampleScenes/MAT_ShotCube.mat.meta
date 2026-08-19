@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 847fc4e575cbb2f47baf2a762cd62bd9
+timeCreated: 1482508782
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80028
+  packageName: 'Mini Pack : Lockpick Kit'
+  packageVersion: 1.0
+  assetPath: Assets/MP_Lockpick/SampleScenes/MAT_ShotCube.mat
+  uploadId: 154792

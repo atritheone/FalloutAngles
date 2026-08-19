@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3ce21dac728b0684d9957c4481e0fb8b
+timeCreated: 1483794640
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80028
+  packageName: 'Mini Pack : Lockpick Kit'
+  packageVersion: 1.0
+  assetPath: Assets/MP_Lockpick/Prefabs/P_PaperClip_01.prefab
+  uploadId: 154792

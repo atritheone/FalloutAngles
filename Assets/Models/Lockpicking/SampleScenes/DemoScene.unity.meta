@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c32ee7d324e2c7049b8d256f4b9fb2dc
+timeCreated: 1482509332
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80028
+  packageName: 'Mini Pack : Lockpick Kit'
+  packageVersion: 1.0
+  assetPath: Assets/MP_Lockpick/SampleScenes/DemoScene.unity
+  uploadId: 154792

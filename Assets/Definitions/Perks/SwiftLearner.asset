@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a2ef6142803c884f95a7022f0429db1, type: 3}
+  m_Name: SwiftLearner
+  m_EditorClassIdentifier: Assembly-CSharp::PerkDefinition
+  perkId: SwiftLearner
+  perkName: Swift Learner
+  description: With each level of Swift Learner your character will gain an additional
+    +10% to experience whenever Experience Points are earned.
+  formCodes:
+  - 00031DD3
+  editorId: SwiftLearner
+  referenceUrl: https://fallout.fandom.com/wiki/Swift_Learner_(Fallout_3)
+  icon: {fileID: 0}
+  category: 0
+  contentSource: 0
+  customContentSource: 
+  selectableAtLevelUp: 1
+  cutContent: 0
+  maxRank: 3
+  requiredLevel: 2
+  genderRequirement: 0
+  karmaRequirement: 0
+  specialRequirements: []
+  skillRequirements: []
+  prerequisitePerks: []
+  mutuallyExclusivePerks: []
+  customRequirements: []
+  foundInQuest: {fileID: 0}
+  relatedQuests: []
+  questRequirements: []
+  acquisitionDescription: 
+  unsafeToGrantDirectly: 0
+  benefitSummary: Each rank grants a 10% bonus to earned Experience Points.
+  rankBenefits:
+  - rank: 1
+    benefit: +10% Experience Points earned
+    effects:
+    - target: 15
+      specialStatTarget: 0
+      skillTarget: 0
+      operation: 1
+      magnitude: 10
+      durationSeconds: 0
+      chancePercent: 0
+      scalesWithRank: 0
+      conditions: []
+      effectId: ExperienceGainBonusRank1
+      notes: Experience gain bonus.
+  - rank: 2
+    benefit: +10% Experience Points earned
+    effects:
+    - target: 15
+      specialStatTarget: 0
+      skillTarget: 0
+      operation: 1
+      magnitude: 10
+      durationSeconds: 0
+      chancePercent: 0
+      scalesWithRank: 0
+      conditions: []
+      effectId: ExperienceGainBonusRank2
+      notes: Experience gain bonus.
+  - rank: 3
+    benefit: +10% Experience Points earned
+    effects:
+    - target: 15
+      specialStatTarget: 0
+      skillTarget: 0
+      operation: 1
+      magnitude: 10
+      durationSeconds: 0
+      chancePercent: 0
+      scalesWithRank: 0
+      conditions: []
+      effectId: ExperienceGainBonusRank3
+      notes: Experience gain bonus.
+  effects:
+  - target: 15
+    specialStatTarget: 0
+    skillTarget: 0
+    operation: 1
+    magnitude: 10
+    durationSeconds: 0
+    chancePercent: 0
+    scalesWithRank: 1
+    conditions: []
+    effectId: ExperienceGainBonus
+    notes: Permanent +10% Experience Points earned per rank.
+  designerNotes: Fallout 3 Swift Learner requires level 2 and has three ranks.

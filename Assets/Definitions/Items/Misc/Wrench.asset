@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ddd9e86a503124686a464f8ea63ff6, type: 3}
+  m_Name: Wrench
+  m_EditorClassIdentifier: Assembly-CSharp::MiscDefinition
+  itemId: 
+  displayName: Wrench
+  description: 
+  icon: {fileID: 0}
+  weight: 1
+  isStackable: 1
+  maxStackSize: 1000
+  value: 8
+  worldPrefab: {fileID: 7609779139685183953, guid: 97eeafb28e30d494695c1e8e18930ed2, type: 3}

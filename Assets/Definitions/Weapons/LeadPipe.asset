@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c07ca2aa1a91e0d4babf636cf970b205, type: 3}
+  m_Name: LeadPipe
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponDefinition
+  itemId: Weapon7
+  displayName: Lead Pipe
+  description: 
+  icon: {fileID: 0}
+  weight: 5
+  isStackable: 0
+  maxStackSize: 1
+  damage: 5
+  baseValue: 10
+  fireRate: 0
+  range: 0
+  muzzleVelocity: 250
+  ammoType: {fileID: 0}
+  magazineSize: 0
+  worldPrefab: {fileID: 7455901355561570690, guid: 4d7697553a4d0f340b5970db49581773, type: 3}

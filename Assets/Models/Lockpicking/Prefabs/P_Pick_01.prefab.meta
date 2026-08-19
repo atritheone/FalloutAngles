@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f42a488c66f1ccf489bfcadb2beafb11
+timeCreated: 1483794636
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80028
+  packageName: 'Mini Pack : Lockpick Kit'
+  packageVersion: 1.0
+  assetPath: Assets/MP_Lockpick/Prefabs/P_Pick_01.prefab
+  uploadId: 154792
