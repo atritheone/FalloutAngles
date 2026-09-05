@@ -5,6 +5,13 @@ using UnityEditor;
 using UnityEditor.IMGUI.Controls;
 using UnityEngine;
 
+#if UNITY_6000_3_OR_NEWER
+// These IDs identify bones and muscles, not Unity objects.
+using TreeView = UnityEditor.IMGUI.Controls.TreeView<int>;
+using TreeViewItem = UnityEditor.IMGUI.Controls.TreeViewItem<int>;
+using TreeViewState = UnityEditor.IMGUI.Controls.TreeViewState<int>;
+#endif
+
 namespace UniHumanoid
 {
     class BoneNode : IEnumerable<BoneNode>
@@ -182,8 +189,7 @@ namespace UniHumanoid
             return new BoneTreeViewItem((int)bone, -1, bone);
         }
 
-        // inside class BoneTreeView : TreeView<int>
-        protected override void RowGUI(UnityEditor.IMGUI.Controls.TreeView.RowGUIArgs args)
+        protected override void RowGUI(TreeView.RowGUIArgs args)
         {
             for (int i = 0; i < args.GetNumVisibleColumns(); ++i)
             {
@@ -191,7 +197,7 @@ namespace UniHumanoid
             }
         }
 
-        void CellGUI(Rect cellRect, int index, ref UnityEditor.IMGUI.Controls.TreeView.RowGUIArgs args)
+        void CellGUI(Rect cellRect, int index, ref TreeView.RowGUIArgs args)
         {
             CenterRectUsingSingleLineHeight(ref cellRect);
 
@@ -252,8 +258,6 @@ namespace UniHumanoid
     {
         [NonSerialized] bool m_Initialized;
 
-        // Note: Unity 6000 recommends generic state. It's fine if this isn't serialized by Unity's object serializer;
-        // the TreeView manages its own persistence in editor layouts.
         [SerializeField] TreeViewState m_TreeViewState;
 
         SearchField m_SearchField;
