@@ -1,6 +1,6 @@
 # Fallout: Angles
 
-**Fallout: Angles** is a Fallout game set in post-apocalyptic England, currently in development using **Unity 6.5**.
+**Fallout: Angles** is a Fallout game set in post-apocalyptic England, currently in development using **Unity 6.6**.
 
 Set in **Norfolk in 2280**, the game follows the **Afflicted One** across the ruins of East Anglia in search of the Heroine — and a cure for the disease slowly killing them.
 
@@ -33,7 +33,7 @@ The project is being designed around:
 
 ## Technology
 
-- **Engine:** Unity 6.5
+- **Engine:** Unity 6.6
 - **Language:** C#
 - **Input:** Unity Input System
 - **Perspective:** Third Person
